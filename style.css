@@ -11,7 +11,7 @@ html {
 
 body {
   text-rendering: optimizeLegibility;
-  box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.64);
+  box-shadow: 13px 1px 14px -8px rgba(0,0,0,0.52);
   width: 670px;
   height: 440px;
   margin: 150px auto;
@@ -48,7 +48,7 @@ body {
 }
 .bota {
   position: absolute;
-  left: -90px;
+  left: -80px;
   top: 135px;
   right: 0;
   bottom: 0;
@@ -56,20 +56,18 @@ body {
 .cena {
   font-size: 28px;
   font-weight: 500;
-  margin-left: 30px;
+  margin-left: 37px;
 }
 .zaruka {
   font-size: 12px;
   font-weight: 400;
-  
 }
 
 .cena-zaruka {
   position: absolute;
-  left: 167.5px;
+  left: 150.5px;
   bottom: 30px;
-  
-  
+  right: 30px;
 }
 
 .bila-polovina {
@@ -78,22 +76,19 @@ body {
   flex-grow: 1;
   margin: 0;
   height: 440px;
-  padding: 30px;
-  
-
+  padding: 30px 30px 0 30px;
 }
 
 h1 {
-  
   font-size: 20px;
   font-weight: 500;
   margin: 0;
+  text-transform: uppercase;
 }
 .damska-bota {
   font-size: 14px;
   font-weight: 400;
   color: #959595;
-  
 }
 
 .popis-produktu {
@@ -104,14 +99,16 @@ h1 {
 }
 .velikost {
   margin-top: 0;
-  padding: 30px 30px 0 30px;
+  padding-top: 30px;
   font-size: 16px;
   font-weight: 500;
+
+  text-transform: uppercase;
 }
 
 .ciselne-velikosti {
-  padding-left: 30px;
   font-size: 14px;
+  padding-left: 0px;
 }
 
 .ciselne-velikosti li {
@@ -127,9 +124,23 @@ h1 {
   color: #f15f42;
 }
 
+button {
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f15f42;
+  box-shadow: 10px 10px 17px -14px rgba(0,0,0,0.47);
+  margin-bottom: 30px;
+  margin-top: 50px;
+  
+}
 
-
-
+button a {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: White;
+}
 
 /*
  BARVY
